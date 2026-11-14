@@ -99,7 +99,7 @@ int main()
  //----------------------------------------
   int size2 = 5;
   int array2[size2]={3,4,1,32,98};
-  cout << "Answere 4" << endl;
+  cout << "Answere 4:" << endl;
   intersecting_element(array, array2, size, size2);
   return 0;
 }
