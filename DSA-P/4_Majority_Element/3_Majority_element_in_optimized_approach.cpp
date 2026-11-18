@@ -21,14 +21,17 @@ public:
     for (int i = 1; i < nums.size(); i++){
       if (nums[i] == nums[i - 1]){
         frq++;
-        if (frq > (nums.size() / 2)){
-          ans = nums[i];
-          return ans;
-        }
       }else {
         frq = 1;
       }
-  }
+      if (frq > (nums.size() / 2)){
+          ans = nums[i];
+          return ans;
+      }
+    }
+
+    // Talha its time complexity big of nlog, but is another far more optimized way to do it and that is moore voting algoritm, which is in the next file
+    return ans;
  }
 };
 
