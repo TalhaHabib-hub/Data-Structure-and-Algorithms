@@ -31,4 +31,4 @@ int main(){// moores algorithm time complexity is big of n
   vector<int> numbers = {4, 3, 9,8,10,2,2, 2, 2, 2, 2, 2};
   cout << "The majority element is : " << n.majority_elment(numbers);
   return 0;
-}ko
+}
